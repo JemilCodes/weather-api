@@ -26,7 +26,7 @@ app.use(notFoundMiddleware);
 const start = async () => {
   try {
     mongoose.connect(
-      "mongodb+srv://azizariyibi:Olabisi14@generalcluster.rvxsveo.mongodb.net"
+      "mongodb+srv://nurudeeny17:<Blu7EXbyoYfIxNA6>@cluster0.gkcwpna.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
     );
     app.listen(port, console.log(`Server is listening on port ${port}...`));
   } catch (err) {
